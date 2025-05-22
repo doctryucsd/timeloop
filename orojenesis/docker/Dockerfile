@@ -54,7 +54,8 @@ RUN apt-get update \
                        libgmp-dev \
     && rm -rf /var/lib/apt/lists/*
 
-RUN pip install --no-cache-dir notebook
+RUN pip install --no-cache-dir jupyterlab==4.0.11 notebook
+# RUN pip install --no-cache-dir notebook
 
 # export port 8888
 EXPOSE 8888
