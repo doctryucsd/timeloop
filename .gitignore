@@ -41,3 +41,5 @@ GSYMS
 GTAGS
 # MacOS-specific files.
 .DS_Store
+.ipynb_checkpoints/
+outputs/
